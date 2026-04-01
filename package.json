@@ -2,10 +2,6 @@
   "name": "startour-auth",
   "version": "1.0.0",
   "description": "Micro Service d'authentification pour l'API StarTours",
-  "homepage": "https://github.com/anto95240/StarTour-Auth#readme",
-  "bugs": {
-    "url": "https://github.com/anto95240/StarTour-Auth/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anto95240/StarTour-Auth.git"
@@ -13,11 +9,11 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "src/server.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
     "format": "prettier --write \"src/**/*.js\""
