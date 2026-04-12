@@ -1,6 +1,6 @@
 # StarTour Authentication Microservice
 
-API d'authentification pour la plateforme StarTour - microservice qui gère l'authentification, l'enregistrement et la gestion des profils utilisateur.
+Service d'authentification pour la plateforme StarTour. Gère complètement l'authentification, l'enregistrement et la gestion des profils utilisateur.
 
 ## Architecture
 

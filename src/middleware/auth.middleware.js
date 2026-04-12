@@ -15,7 +15,10 @@ export const authenticate = (req, res, next) => {
       throw new AuthenticationError('Invalid or expired token');
     }
 
-    req.user = decoded;
+    req.user = {
+      userId: decoded.userId,
+      email: decoded.email,
+    };
     next();
   } catch (error) {
     next(error);
