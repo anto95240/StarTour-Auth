@@ -19,10 +19,6 @@ src/
 
 ## Installation
 
-### Repository GitHub
-
-- URL: https://github.com/anto95240/StarTour-Auth
-
 ### Clonage
 
 ```bash
