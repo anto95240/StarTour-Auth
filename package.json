@@ -26,13 +26,15 @@
     "joi": "^18.0.2",
     "jsonwebtoken": "^9.0.3",
     "mysql2": "^3.16.1",
-    "sequelize": "^6.37.7"
+    "sequelize": "^6.37.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.0",
+    "nodemon": "^3.1.11",
     "prettier": "^3.1.1"
   }
 }
